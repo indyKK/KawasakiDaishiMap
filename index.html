@@ -35,12 +35,12 @@
 			var WEBMAP_ID = "b8d71365906d4b0bbefcc702cd88dd38";
 			var BOOKMARKS_ALIAS = "このエリアに移動"; 
 			var COLOR_ORDER = "green,red,blue,purple,black"; // will only use as many colors as you have tabs
-			var DETAILS_PANEL = false; // specifies whether or not popups have a link to a separate Details panel
+			var DETAILS_PANEL = true; // specifies whether or not popups have a link to a separate Details panel
 			//
 			// Specify point feature layers on your map that do NOT define a tab in the Shortlist.
 			// These point layers will be displayed as supporting layers.
 			// If there's more than one layer, use the "|" character as delimiter
-			var POINT_LAYERS_NOT_TO_BE_SHOWN_AS_TABS = "";
+			var POINT_LAYERS_NOT_TO_BE_SHOWN_AS_TABS = "その他";
 			//
 			// Specify supporting feature layers in your map that will be clickable in the Shortlist.
 			// These layers must use the Shortlist attribute schema for their popups to appear.
@@ -48,7 +48,7 @@
 			var SUPPORTING_LAYERS_THAT_ARE_CLICKABLE = "";
 			//
 			// Location button that locates user (on supported browsers)
-			var GEOLOCATOR = false;
+			var GEOLOCATOR = true;
 			//
 			// If the tabs are defined using a single layer, you can optionally use these parameters to
 			// override the tab order and names defined in that layer without editing the layer.
